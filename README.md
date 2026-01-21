@@ -1,10 +1,15 @@
-#  Password Generator (C++)
-A simple and efficient CLI tool for generating secure random passwords.
-Created as a first pet-project to practice C++ basics.
+**A small collection of console-based mini programs written in C++.**  
+**This repository contains simple logic games and utilities focused on practicing algorithms, loops, conditions, and user interaction in the terminal.**
 
-## Features
-* **Custom Length:** User decides password length.
-* **Input Validation:** Prevents errors by checking invalid inputs.
-* **Continuous Mode:** Generate multiple passwords in one session.
-* **Randomness:** Uses `srand(time(0))` for unique combinations.
+## 📦 **Included projects**
+### **Bulls and Cows**
+**Classic logic game where you guess a secret number.**
+### **Guess the Number**
+**The program generates a random 5-digit number, and the player tries to guess it with feedback on matching digits.**
+### **Secure Password Generator**
+**Generates strong random passwords using letters, numbers, and special characters.**
+
+## 🛠 **Technologies**
+- **Language: C++**
+- **Standard library only (`<iostream>`, `<string>`, `<random>`)**
 
